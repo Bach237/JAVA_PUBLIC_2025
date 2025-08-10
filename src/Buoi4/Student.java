@@ -8,6 +8,7 @@ public class Student {
     private double tx1, tx2, KQHP;
 
 
+
     public Student(String Ten, int namSinh, String diaChi, double tx1, double tx2, double KQHP, int soTietNghi){
         this.Ten = Ten;
         this.namSinh = namSinh;
@@ -43,5 +44,6 @@ public class Student {
     public String toString(){
         return this.Ten + " " + this.getTuoi() + " " + this.diaChi + " " + this.tx1 + " " + this.tx2 + " " + this.KQHP + " " + this.getGPA() + " " + this.soTietNghi;
     }
+
 
 }
